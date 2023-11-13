@@ -6,8 +6,36 @@ const questions = [
     {
         type: 'input',
         message: "What is the project's title",
-        name: 'title'
-    }
+        name: 'project title'
+    },
+    {
+        type: 'input',
+        message: "Describe your project",
+        name: 'description'
+    },
+    {
+        type: 'input',
+        message: "If any, what are the installation steps?",
+        name: 'installation'
+    },
+    {
+        type: 'input',
+        message: "Provide instructions and examples on how to use your project. Be descritpive.",
+        name: 'usage'
+    },
+    {
+        type: 'input',
+        message: "List all information to be credited (i.e. collaboratos, links, tutorials, etc)",
+        name: 'credits'
+    },
+    {
+        type: 'checkbox',
+        message: "Select a license",
+        name: 'license',
+        choices: [
+            'MIT'
+        ]
+    },
 ];
 
 inquirer
