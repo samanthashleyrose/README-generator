@@ -26,6 +26,7 @@ function generateMarkdown(response) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [Features](#features)
+  - [How To Contribute](#how-to-contribute)
   - [License](#license)
   
   ## Installation
@@ -47,8 +48,6 @@ function generateMarkdown(response) {
   ## How to Contribute
   
   - ${response.contributions}
-
-  ## Badges
 
   ## License
   
