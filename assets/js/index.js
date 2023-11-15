@@ -12,7 +12,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Describe your project",
+        message: "Breifly describe your project. Consider the following: Why did you make this project? What motivated you? What challenges did you face? What does this project accomplish or solve?",
         name: 'description'
     },
     {
@@ -22,7 +22,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Provide instructions and examples on how to use your project. Be descritpive.",
+        message: "Provide instructions and examples on how to use your project. Be descritpive. Use examples. (Once README is generated, you may embed screenshots directly).",
         name: 'usage'
     },
     {
@@ -32,12 +32,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: "List all information to be credited (i.e. collaboratos, links, tutorials, etc)",
+        message: "List all information to be credited (i.e. collaborators, links, tutorials, etc).",
         name: 'credits'
     },
     {
         type: 'input',
-        message: "List how to contribute here.",
+        message: "List ways for other developers to contribute.",
         name: 'contributions'
     },
     {
@@ -65,7 +65,6 @@ function init() {
         });
     });
 };
-
 
 // Function call to initialize app
 init();

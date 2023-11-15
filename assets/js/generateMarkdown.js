@@ -16,11 +16,9 @@ function generateMarkdown(response) {
 
   ## Description
   
-  - ${response.description}
+  ${response.description}
   
-  ## Table of Contents (Optional)
-  
-  If your README is long, add a table of contents to make it easy for users to find what they need.
+  ## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
@@ -31,27 +29,29 @@ function generateMarkdown(response) {
   
   ## Installation
   
-  - ${response.installation}
+  ${response.installation}
   
   ## Usage
   
-  - ${response.usage}
+  ${response.usage}
+
+  OPTIONAL -- embed screenshots here: ![alt text](assets/images/screenshot.png)
   
   ## Credits
   
-  - ${response.credits}
+  ${response.credits}
   
   ## Features
   
-  - ${response.features}
+  ${response.features}
   
   ## How to Contribute
   
-  - ${response.contributions}
+  ${response.contributions}
 
   ## License
   
-  - ${response.license}
+  ${response.license}
 `;
 }
 
