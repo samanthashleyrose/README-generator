@@ -44,10 +44,19 @@ function generateMarkdown(response) {
   ## Features
   
   ${response.features}
+
+  ## Tests
+
+  ${response.tests}
   
   ## How to Contribute
   
   ${response.contributions}
+
+  ## Questions 
+   
+  ${response.questions}
+  ${response.name}'s GitHub Profile: <a href="${response.githubLink}">${response.githubUser}</a>
 
   ## License
   

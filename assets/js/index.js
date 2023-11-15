@@ -6,6 +6,11 @@ const generateMarkdown = require('./generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        type: 'confirm',
+        message: "Answer the following questions that are applicable to your project. If not applicable, type N/A or Not Applicable. Type Y to begin.",
+        name: 'instructions',
+    },
+    {
         type: 'input',
         message: "What is the project's title",
         name: 'title'
@@ -37,15 +42,41 @@ const questions = [
     },
     {
         type: 'input',
+        message: "If you've written tests for you application, add them here with examples on how to run them.",
+        name: 'tests',
+    },
+    {
+        type: 'input',
         message: "List ways for other developers to contribute.",
         name: 'contributions'
+    },
+    {
+        type: 'input',
+        message: "List ways for users or other developers to ask questions.",
+        name: 'questions'
+    },
+    {
+        type: 'input',
+        message: "What is your name?",
+        name: 'name'
+    },
+    {
+        type: 'input',
+        message: "What is your GitHub Username?",
+        name: 'githubUser'
+    },
+    {
+        type: 'input',
+        message: "Enter the link to your GitHub Profile",
+        name: 'githubLink'
     },
     {
         type: 'checkbox',
         message: "Select a license",
         name: 'license',
         choices: [
-            'MIT'
+            'MIT',
+            'NODE'
         ]
     },
 ];
