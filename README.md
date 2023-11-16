@@ -14,9 +14,25 @@ Crafting a comprehensive README is crucial for effective project development, pr
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to use the README Generator, it is necessary to have a code editor, such as Visual Studio Code (VSCode), and Node.js installed on your system.
+
+1. Begin by installing Node.js on your computer's terminal or bash. For detailed installation instructions, <a href='https://nodejs.org/en'>Node.js.org</a>.
+
+2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal or bash to confirm that you have the latest version downloaded.
 
 ## Usage
+
+The following steps outline the usage of the README Generator. Ensure that you have satisfied all installation prerequisites before proceeding with the following usage instructions.
+
+1. Initiate the cloning process from the GitHub repository by selecting "Clone." Execute the Git Clone command in your terminal or bash. Subsequently, open the cloned project in your preferred code editor.
+
+2. Execute the command `node [current file.file type]` in your terminal, replacing `[current file.file type]` with the appropriate file name and type. For instance, the command may look like: `node index.js`.
+
+3. The instructions will promptly populate; after reviewing, type 'Y' to proceed.
+
+4. Respond to each probing question as prompted. If you recognize an error in your response after pressing enter and advancing to the next question, rest assured that you can make all necessary modifications once the README.md file has been generated.
+
+5. Upon completing the questionnaire, the terminal will confirm the successful generation of the README with the message "README has been generated." You can now locate the README.md file in the same directory as your original command. For example, if your initial command was `node index.js`, the README.md file will be located in the same folder as your index.js file.
 
 ![alt text](assets/images/screenshot.png)
 
