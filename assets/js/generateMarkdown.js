@@ -3,7 +3,7 @@
 function renderLicense(license) {
   if (license === 'MIT') {
     // Use the license information to generate the appropriate badge URL
-    return `This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    return `This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) - see the [LICENSE.md](LICENSE.md) file for details.`;
   } else if (license === 'Node') {
     return `This project is licensed under the [![License: Node](https://img.shields.io/badge/License-Node-green.svg)](https://opensource.org/licenses/Node) - see the [LICENSE.md](LICENSE.md) file for details.`;
   } else if (license === 'Not Applicable'){
@@ -13,12 +13,26 @@ function renderLicense(license) {
   }
 }
 
+function renderLicenseBadge(license) {
+  if (license === 'MIT') {
+    // Use the license information to generate the appropriate badge URL
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+  } else if (license === 'Node') {
+    return `[![License: Node](https://img.shields.io/badge/License-Node-green.svg)]`;
+  } else if (license === 'Not Applicable'){
+    return '';
+  } else {
+    return '';
+  }
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
-  return `# ${response.title}
+  return `# ${response.title}   
 
   ## Description
-  
+  ${renderLicenseBadge(response.license)}
+
   ${response.description}
   
   ## Table of Contents
