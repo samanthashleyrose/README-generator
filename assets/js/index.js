@@ -10,12 +10,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: "What is the project's title",
+        message: "What is the project's title?",
         name: 'title'
     },
     {
         type: 'input',
-        message: "Breifly describe your project. Consider the following: Why did you make this project? What motivated you? What challenges did you face? What does this project accomplish or solve?",
+        message: "Briefly describe your project. Consider the following: Why did you make this project? What motivated you? What challenges did you face? What does this project accomplish or solve?",
         name: 'description'
     },
     {
@@ -25,7 +25,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Provide instructions and examples on how to use your project. Be descritpive. Use examples. (Once README is generated, you may embed screenshots directly).",
+        message: "Provide instructions and examples on how to use your project. Be descriptive. Use examples. (Once README is generated, you may embed screenshots directly).",
         name: 'usage'
     },
     {
@@ -35,7 +35,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "List all information to be credited (i.e. collaborators, links, tutorials, etc).",
+        message: "List all information to be credited (i.e., collaborators, links, tutorials, etc.).",
         name: 'credits'
     },
     {
@@ -50,7 +50,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Breifly list ways for users or other developers to ask questions. The next 4 prompts will be added as the contact information in this section.",
+        message: "Briefly list ways for users or other developers to ask questions. The next 4 prompts will be added as the contact information in this section.",
         name: 'questions'
     },
     {
@@ -65,17 +65,17 @@ const questions = [
     },
     {
         type: 'input',
-        message: "Enter the link to your GitHub Profile",
+        message: "Enter the link to your GitHub Profile.",
         name: 'githubLink'
     },
     {
         type: 'input',
-        message: "What is  your email address?",
+        message: "What is your email address?",
         name: 'email'
     },
     {
         type: 'list',
-        message: "Select a license",
+        message: "Select a license:",
         name: 'license',
         choices: [
             'MIT',
