@@ -1,21 +1,23 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function that returns the selected license information and the appropriate badge -- If there is no license, return an empty string
 function renderLicense(license) {
   if (license === 'MIT') {
-    // Use the license information to generate the appropriate badge URL
     return `This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) - see the [LICENSE.md](LICENSE.md) file for details.`;
+
   } else if (license === 'Node') {
     return `This project is licensed under the [![License: Node](https://img.shields.io/badge/License-Node-green.svg)](https://opensource.org/licenses/Node) - see the [LICENSE.md](LICENSE.md) file for details.`;
+
   } else if (license === 'Not Applicable'){
     return '';
+
   } else {
     return '';
-  }
-}
+  };
+};
 
+// Function that ONLY returns the license badge 
 function renderLicenseBadge(license) {
   if (license === 'MIT') {
-    // Use the license information to generate the appropriate badge URL
+
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
   } else if (license === 'Node') {
     return `[![License: Node](https://img.shields.io/badge/License-Node-green.svg)]`;
@@ -26,7 +28,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title}   
 
