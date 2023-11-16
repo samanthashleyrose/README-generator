@@ -78,8 +78,11 @@ const questions = [
         message: "Select a license:",
         name: 'license',
         choices: [
-            'MIT',
-            'Node',
+            'Apache License 2.0',
+            'MIT License',
+            'Eclipse Public License 2.0',
+            'Mozilla Public License 2.0',
+            'The Unlicense',
             'Not Applicable'
         ]
     },
