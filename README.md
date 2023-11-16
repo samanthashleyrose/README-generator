@@ -2,14 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-README generator that quickly creates a professional README for a new project
+Crafting a comprehensive README is crucial for effective project development, providing users with insights into the creation process and avenues for potential enhancements. However, the task of creating a polished README can be daunting, especially when faced with the pressure to deliver a stellar document. The README Generator streamlines this process, simplifying the layout creation. The generator asks probing questions to get you started then pre-fills the responses to a newly generated README.md file. Users can easily locate this file and make direct modifications, such as uploading screenshots, organizing links, and correcting any errors. Refer to the usage section for a tutorial on the functionality of the README Generator.
 
 ## Table of Contents
 
