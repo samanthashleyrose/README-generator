@@ -44,6 +44,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 <li><link><a href="https://github.com/coding-boot-camp/potential-enigma">Starter Code</a></link></li>
 <li><link><a href="https://www.youtube.com/watch?v=xMoAZVIiGT0">Creating a Professional README Generator - Youtube</a></link></li>
 <li><link><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">Professional README Guide</a></link></li>
+<li><link><a href="https://shields.io/badges/git-hub-license">Shields.io - Badges</a></link></li>
 
 ## License
 
