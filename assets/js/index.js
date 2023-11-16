@@ -7,7 +7,7 @@ const generateMarkdown = require('./generateMarkdown');
 const questions = [
     {
         type: 'confirm',
-        message: "Answer the following questions that are applicable to your project. If not applicable, type N/A or Not Applicable. Type Y to begin.",
+        message: "Answer the following questions that are applicable to your project. If not applicable, type N/A or Not Applicable. Updates to your answers can be made after the README.md generates. Type Y to begin.",
         name: 'instructions',
     },
     {
@@ -52,7 +52,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "List ways for users or other developers to ask questions.",
+        message: "Breifly list ways for users or other developers to ask questions. The next 4 prompts will be added as the contact information in this section.",
         name: 'questions'
     },
     {
@@ -71,12 +71,18 @@ const questions = [
         name: 'githubLink'
     },
     {
-        type: 'checkbox',
+        type: 'input',
+        message: "What is  your email address?",
+        name: 'email'
+    },
+    {
+        type: 'list',
         message: "Select a license",
         name: 'license',
         choices: [
             'MIT',
-            'NODE'
+            'Node',
+            'Not Applicable'
         ]
     },
 ];

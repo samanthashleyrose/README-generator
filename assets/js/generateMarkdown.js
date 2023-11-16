@@ -1,14 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicense(license) {
+  if (license === 'MIT') {
+    // Use the license information to generate the appropriate badge URL
+    return `This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  } else if (license === 'Node') {
+    return `This project is licensed under the [![License: Node](https://img.shields.io/badge/License-Node-green.svg)](https://opensource.org/licenses/Node) - see the [LICENSE.md](LICENSE.md) file for details.`;
+  } else if (license === 'Not Applicable'){
+    return '';
+  } else {
+    return '';
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
@@ -35,7 +38,7 @@ function generateMarkdown(response) {
   
   ${response.usage}
 
-  OPTIONAL -- embed screenshots here: ![alt text](assets/images/screenshot.png)
+  Optional -- embed screenshots here: ![alt text](assets/images/screenshot.png)
   
   ## Credits
   
@@ -56,11 +59,13 @@ function generateMarkdown(response) {
   ## Questions 
    
   ${response.questions}
+
   ${response.name}'s GitHub Profile: <a href="${response.githubLink}">${response.githubUser}</a>
+  ${response.name}'s Email: <a href="${response.email}">${response.email}</a>
 
   ## License
   
-  ${response.license}
+  ${renderLicense(response.license)}
 `;
 }
 
