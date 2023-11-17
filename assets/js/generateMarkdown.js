@@ -100,6 +100,8 @@ function generateMarkdown(response) {
   ${response.name}'s GitHub Profile: <a href="${response.githubLink}">${response.githubUser}</a>
   ${response.name}'s Email: <a href="${response.email}">${response.email}</a>
 
+  ### Thank you for your interest and support!
+
   ## License
   
   ${renderLicense(response.license)}
