@@ -2,19 +2,19 @@
 function renderLicense(license) {
 
   if (license === 'Apache License 2.0') {
-    return `This project is licensed under the [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) - see the [LICENSE.md](LICENSE.md) file for details.`;
+    return `This project is licensed under the <a href="https://opensource.org/licenses/Apache-2.0">Apache License 2.0</a> - see the [LICENSE](insert path for License file) file for details.`;
 
   } else if (license === 'MIT License') {
-    return `This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) - see the [LICENSE.md](LICENSE.md) file for details.`;
+    return `This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT LICENSE</a> - see the [LICENSE](insert path for License file) file for details.`;
 
   } else if (license === 'Eclipse Public License 2.0') {
-    return `This project is licensed under the [![License: EPL-2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://opensource.org/licenses/EPL-2.0) - see the [LICENSE.md](LICENSE.md) file for details.`;
+    return `This project is licensed under the <a href="https://opensource.org/licenses/EPL-2.0">Eclipse Public License 2.0</a> - see the [LICENSE](insert path for License file) file for details.`;
 
   } else if (license === 'Mozilla Public License 2.0') {
-    return `This project is licensed under the [![License: MPL-2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) - see the [LICENSE.md](LICENSE.md) file for details.`; 
+    return `This project is licensed under the <a href="https://opensource.org/licenses/MPL-2.0">Mozilla Public License 2.0</a> - see the [LICENSE](insert path for License file) file for details. `; 
 
   } else if (license === 'The Unlicense') {
-    return `This project is licensed under the [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) - see the [LICENSE.md](LICENSE.md) file for details.`;
+    return `This project is licensed under the <a href="https://spdx.org/licenses/Unlicense.html">The Unlicense</a> - see the [LICENSE](insert path for License file) file for details.`;
 
   } else if (license === 'Not Applicable'){
     return '';
@@ -52,9 +52,9 @@ function renderLicenseBadge(license) {
 // Function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title}   
+  ${renderLicenseBadge(response.license)}
 
   ## Description
-  ${renderLicenseBadge(response.license)}
 
   ${response.description}
   
