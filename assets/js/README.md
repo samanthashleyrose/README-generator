@@ -1,5 +1,5 @@
 # My Project   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
 
@@ -46,7 +46,7 @@
    
   You may contact me to ask any questions. My contact information is listed below.
 
-  Samantha Rose's GitHub Profile: <a href="https://github.com/samanthashleyrose">samanthashleyrose</a>
+  Samantha Rose's GitHub Profile: <a href="https://github.com/samanthashleyrose">samanthashleyrose</a><br>
   Samantha Rose's Email: <a href="samantha.rose327@gmail.com">samantha.rose327@gmail.com</a>
 
   ### Thank you for your interest and support!
