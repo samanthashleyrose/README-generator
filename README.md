@@ -67,7 +67,6 @@ Email: samantha.rose327@gmail.com
 <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">Professional README Guide</a></li>
 <li><a href="https://www.youtube.com/watch?v=xMoAZVIiGT0">Creating a Professional README Generator - Youtube</a></li>
 
-
 ## License
 
 This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT LICENSE</a> - see the [LICENSE](./LICENSE) file for details.
