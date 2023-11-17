@@ -16,15 +16,15 @@ Crafting a comprehensive README is crucial for effective project development, pr
 
 In order to use the README Generator, it is necessary to have a code editor, such as Visual Studio Code (VSCode), and Node.js installed on your system.
 
-1. Begin by installing Node.js on your computer's terminal or bash. For detailed installation instructions, <li><a href='https://nodejs.org/en'>Node.js.org</a>.
+1. Begin by installing Node.js on your computer's terminal/commmand-line. For detailed installation instructions, vist <a href='https://nodejs.org/en'>Node.js.org</a>.
 
-2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal or bash to confirm that you have the latest version downloaded.
+2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/commmand-line to confirm that you have the latest version downloaded.
 
 ## Usage
 
-The following steps outline the usage of the README Generator. Ensure that you have satisfied all installation prerequisites before proceeding with the following usage instructions.
+The following steps outline the usage of the README Generator. Ensure that you have satisfied all installation requirements before proceeding with the following usage instructions.
 
-1. Initiate the cloning process from the GitHub repository by selecting "Clone." Execute the Git Clone command in your terminal or bash. Subsequently, open the cloned project in your preferred code editor.
+1. Initiate the cloning process from the GitHub repository by selecting "Clone." Execute the Git Clone command in your terminal/commmand-line. Next, open the cloned project in your preferred code editor.
 
 2. Execute the command `node [current file.file type]` in your terminal, replacing `[current file.file type]` with the appropriate file name and type. For instance, the command may look like: `node index.js`.
 
@@ -32,9 +32,11 @@ The following steps outline the usage of the README Generator. Ensure that you h
 
 4. Respond to each probing question as prompted. If you recognize an error in your response after pressing enter and advancing to the next question, rest assured that you can make all necessary modifications once the README.md file has been generated.
 
-5. Upon completing the questionnaire, the terminal will confirm the successful generation of the README with the message "README has been generated." You can now locate the README.md file in the same directory as your original command. For example, if your initial command was `node index.js`, the README.md file will be located in the same folder as your index.js file.
+5. Upon completing the questionnaire, the terminal will confirm the successful generation of the README with the message "Your README has been generated!" <br> You can now locate the README.md file in the same directory as your initial command. For example, if your initial command was `node index.js`, the README.md file will be located in the same folder as your index.js file.
 
-![alt text](assets/images/screenshot.png)
+6. After generating the README.md, relocate the file to the designated folder within your corresponding project. You have the option to retain a local copy of this cloned repository on your computer for convenient future use. Alternatively, if necessary, you can remove the cloned repository from your computer and re-clone it as needed.
+
+insert video demo here
 
 ## How to Contribute
 

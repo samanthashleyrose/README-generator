@@ -98,7 +98,7 @@ function init() {
             if (err) {
                 console.error(err);
             } else {
-                console.log('README has been generated');
+                console.log('Your README has been generated!');
             }
         });
     });
