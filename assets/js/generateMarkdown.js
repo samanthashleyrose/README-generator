@@ -64,7 +64,9 @@ function generateMarkdown(response) {
   - [Usage](#usage)
   - [Credits](#credits)
   - [Features](#features)
+  - [Tests](#tests)
   - [How To Contribute](#how-to-contribute)
+  - [Questions](#questions)
   - [License](#license)
   
   ## Installation

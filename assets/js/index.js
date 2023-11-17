@@ -35,7 +35,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "List all information to be credited (i.e., collaborators, links, tutorials, etc.).",
+        message: "List all information to be credited (i.e., collaborators, links, tutorials, etc.)",
         name: 'credits'
     },
     {
