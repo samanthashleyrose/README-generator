@@ -1,4 +1,5 @@
 # README-generator
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
@@ -68,4 +69,6 @@ Email: samantha.rose327@gmail.com
 
 ## License
 
-Please refer to the MIT LICENSE in the repo.
+Please refer to the  in the repo.
+
+This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT LICENSE</a> - see the [LICENSE](./LICENSE) file for details.
