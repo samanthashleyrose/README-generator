@@ -16,7 +16,7 @@ Crafting a comprehensive README is crucial for effective project development, pr
 
 In order to use the README Generator, it is necessary to have a code editor, such as Visual Studio Code (VSCode), and Node.js installed on your system.
 
-1. Begin by installing Node.js on your computer's terminal or bash. For detailed installation instructions, <a href='https://nodejs.org/en'>Node.js.org</a>.
+1. Begin by installing Node.js on your computer's terminal or bash. For detailed installation instructions, <li><a href='https://nodejs.org/en'>Node.js.org</a>.
 
 2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal or bash to confirm that you have the latest version downloaded.
 
@@ -41,19 +41,19 @@ The following steps outline the usage of the README Generator. Ensure that you h
 ## Credits
 
 #### Knowledge Assitance From:
-<li>Lee Warrick <link><a href="https://leewarrick.com/">Personal Portfolio</a></link></li>
-<li>Mia Ciasullo <link><a href="https://github.com/miacias">GitHub Portfolio</a></link></li>
+<li>Lee Warrrick <a href="https://leewarrick.com/">Personal Portfolio</a></li>
+<li>Mia Ciasullo <a href="https://github.com/miacias">GitHub Portfolio</a></li>
 
 #### Technologies Used:
-<li><link><a href="https://chat.openai.com/">ChatGPT</a></link></li>
-<li><link><a href="https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme#prompt">NPM</a></link></li>
-<li><link><a href="https://nodejs.org/en/">Node.js</a></link></li>
+<li><a href="https://chat.openai.com/">ChatGPT</a></li>
+<li><a href="https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme#prompt">NPM</a></li>
+<li><a href="https://nodejs.org/en/">Node.js</a></li>
 
 #### Documentation Used:
-<li><link><a href="https://github.com/coding-boot-camp/potential-enigma">Starter Code</a></link></li>
-<li><link><a href="https://www.youtube.com/watch?v=xMoAZVIiGT0">Creating a Professional README Generator - Youtube</a></link></li>
-<li><link><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">Professional README Guide</a></link></li>
-<li><link><a href="https://shields.io/badges/git-hub-license">Shields.io - Badges</a></link></li>
+<li><a href="https://github.com/coding-boot-camp/potential-enigma">Starter Code</a></li>
+<li><a href="https://www.youtube.com/watch?v=xMoAZVIiGT0">Creating a Professional README Generator - Youtube</a></li>
+<li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">Professional README Guide</a></li>
+<li><a href="https://shields.io/badges/git-hub-license">Shields.io - Badges</a></li>
 
 ## License
 
