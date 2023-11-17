@@ -1,4 +1,4 @@
-// Function that returns the selected license information and the appropriate badge -- If there is no license, return an empty string
+// Function that returns the selected license information -- If there is no license, return an empty string
 function renderLicense(license) {
 
   if (license === 'Apache License 2.0') {
