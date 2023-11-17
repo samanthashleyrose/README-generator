@@ -38,6 +38,15 @@ The following steps outline the usage of the README Generator. Ensure that you h
 
 ## How to Contribute
 
+If you encounter any issues while using the README Generator, I encourage you to open a new issue or submit a pull request through this repository. Your feedback is valuable, and your contributions are appreciated.
+
+Additionally, you are welcome to report any concerns, propose improvements, or share your suggestions. Please don't hesitate to reach out regarding any of these topics. I look forward to collaborating with you to enhance the README Generator.
+
+GitHub Profile: <a href="https://github.com/samanthashleyrose">samanthashleyrose</a><br>
+Email: samantha.rose327@gmail.com
+
+### Thank you for your interest and support!
+
 ## Credits
 
 #### Knowledge Assitance From:
