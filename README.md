@@ -56,15 +56,16 @@ Email: samantha.rose327@gmail.com
 <li>Mia Ciasullo <a href="https://github.com/miacias">GitHub Portfolio</a></li>
 
 #### Technologies Used:
-<li><a href="https://chat.openai.com/">ChatGPT</a></li>
-<li><a href="https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme#prompt">NPM</a></li>
 <li><a href="https://nodejs.org/en/">Node.js</a></li>
+<li><a href="https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme#prompt">NPM</a></li>
+<li><a href="https://chat.openai.com/">ChatGPT</a></li>
 
 #### Documentation Used:
 <li><a href="https://github.com/coding-boot-camp/potential-enigma">Starter Code</a></li>
-<li><a href="https://www.youtube.com/watch?v=xMoAZVIiGT0">Creating a Professional README Generator - Youtube</a></li>
-<li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">Professional README Guide</a></li>
 <li><a href="https://shields.io/badges/git-hub-license">Shields.io - Badges</a></li>
+<li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">Professional README Guide</a></li>
+<li><a href="https://www.youtube.com/watch?v=xMoAZVIiGT0">Creating a Professional README Generator - Youtube</a></li>
+
 
 ## License
 
