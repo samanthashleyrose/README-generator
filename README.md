@@ -37,7 +37,7 @@ The following steps outline the usage of the README Generator. Ensure that you h
 
 6. After generating the README.md, relocate the file to the designated folder within your corresponding project. You have the option to retain a local copy of this cloned repository on your computer for convenient future use. Alternatively, if necessary, you can remove the cloned repository from your computer and re-clone it as needed.
 
-https://github.com/samanthashleyrose/README-generator/assets/142939966/0b5fb7a4-c85e-455f-94eb-5394ca3537b8
+https://github.com/samanthashleyrose/README-generator/assets/142939966/0c38a50a-c058-4922-90d5-fb40ad9ccd10
 
 ## How to Contribute
 
