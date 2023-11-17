@@ -71,4 +71,3 @@ Email: samantha.rose327@gmail.com
 ## License
 
 This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT LICENSE</a> - see the [LICENSE](./LICENSE) file for details.
-
