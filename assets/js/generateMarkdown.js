@@ -27,19 +27,19 @@ function renderLicense(license) {
 // Function that ONLY returns the license badge 
 function renderLicenseBadge(license) {
   if (license === 'Apache License 2.0') {
-    return `[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
+    return `![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
 
   } else if (license === 'MIT License') {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
 
   } else if (license === 'Eclipse Public License 2.0') {
-    return `[![License: EPL-2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)]`;
+    return `![License: EPL-2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)`;
 
   } else if (license === 'Mozilla Public License 2.0') {
-    return `[![License: MPL-2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`;
+    return `![License: MPL-2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)`;
 
   } else if (license === 'The Unlicense') {
-    return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]`;
+    return `![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)`;
 
   } else if (license === 'Not Applicable'){
     return '';
@@ -99,7 +99,7 @@ function generateMarkdown(response) {
    
   ${response.questions}
 
-  ${response.name}'s GitHub Profile: <a href="${response.githubLink}">${response.githubUser}</a>
+  ${response.name}'s GitHub Profile: <a href="${response.githubLink}">${response.githubUser}</a><br>
   ${response.name}'s Email: <a href="${response.email}">${response.email}</a>
 
   ### Thank you for your interest and support!
