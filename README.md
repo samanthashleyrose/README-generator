@@ -21,7 +21,7 @@ In order to use the README Generator, it is necessary to have a code editor, suc
 
 2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/command-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
 
-3. In addition run the command npm install inquirer@8. For the README Generator to function properly, you must have inquirer version 8.2.6 installed.
+3. In addition run the command `npm install inquirer@8`. For the README Generator to function properly, you must have inquirer version 8.2.6 installed.
 
 ## Usage
 
