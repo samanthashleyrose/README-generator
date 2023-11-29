@@ -17,15 +17,15 @@ Crafting a comprehensive README is crucial for effective project development, pr
 
 In order to use the README Generator, it is necessary to have a code editor, such as Visual Studio Code (VSCode), and Node.js installed on your system.
 
-1. Begin by installing Node.js on your computer's terminal/commmand-line. For detailed installation instructions, vist <a href='https://nodejs.org/en'>Node.js.org</a>.
+1. Begin by installing Node.js on your computer's terminal/command-line. For detailed installation instructions, vist <a href='https://nodejs.org/en'>Node.js.org</a>.
 
-2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/commmand-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
+2. Verify the installation of npm, which usually comes bundled with Node.js. Execute the command `npm -v` in your terminal/command-line to confirm that you have the latest version downloaded. If npm is not installed, run the command `npm i` before continuing.
 
 ## Usage
 
 The following steps outline the usage of the README Generator. Ensure that you have satisfied all installation requirements before proceeding with the following usage instructions.
 
-1. Initiate the cloning process from the GitHub repository by selecting "Code." Copy the SSH link then execute the `git clone <paste SSH link>` command in your terminal/commmand-line. Next, open the cloned project in your preferred code editor.
+1. Initiate the cloning process from the GitHub repository by selecting "Code." Copy the SSH link then execute the `git clone <paste SSH link>` command in your terminal/command-line. Next, open the cloned project in your preferred code editor.
 
 2. Execute the command `node [current file.file type]` in your terminal, replacing `[current file.file type]` with the appropriate file name and type. For instance, the command may look like: `node index.js`.
 
