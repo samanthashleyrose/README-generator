@@ -1,13 +1,14 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "README Generator",
   "main": "index.js",
+  "author": "Samantha Rose",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.6"
   }
