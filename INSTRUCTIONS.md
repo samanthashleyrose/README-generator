@@ -5,13 +5,13 @@ When creating an open source project on GitHub, it’s important to have a high-
 
 You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer packageLinks to an external site.. Review the Professional README GuideLinks to an external site. as a reminder of everything that a high-quality, professional README should contain.
+Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Review the Professional README Guide as a reminder of everything that a high-quality, professional README should contain.
 
 **IMPORTANT**<br>
 In order to install inquirer, please use `npm i inquirer@8.2.4.`
 
 The application will be invoked by using the following command:`node index.js`<br>
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit 2.2.4: Screencastify Tutorial in Module 2 of the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video and add it to the README of your project.
+Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality.
 
 **IMPORTANT**<br>
 Make sure to clone the starter code repository and make your own repository with the starter code. Do not fork the starter code repository!
